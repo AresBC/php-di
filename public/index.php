@@ -1,16 +1,18 @@
 <?php declare(strict_types=1);
 
 
-use Monolog\Formatter\LineFormatter;
-use Monolog\Level;
-use Monolog\LogRecord;
-use Monolog\Processor\MemoryUsageProcessor;
-use Psr\Http\Message\ResponseInterface as Response;
-use Psr\Http\Message\ServerRequestInterface as Request;
+use App\Debug\Debug;
+use App\Logger\ILogger;
+use App\Logger\Logger;
 use Slim\Factory\AppFactory;
 use DI\Container;
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
+use Psr\Http\Message\ServerRequestInterface as Request;
+use Psr\Http\Message\ResponseInterface as Response;
+use Psr\Http\Message\ResponseInterface;
+use Psr\Http\Message\ServerRequestInterface;
+use Psr\Http\Server\MiddlewareInterface;
+use Psr\Http\Server\RequestHandlerInterface;
+use Slim\Routing\RouteContext;
 
 require __DIR__ . '/../vendor/autoload.php';
 include_once __DIR__ . '/../functions.php';
@@ -19,41 +21,18 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-set_error_handler(/**
- * @throws ErrorException
- */ function ($errno, $errstr, $errfile, $errline) {
+
+set_error_handler(/** @throws ErrorException */ function ($errno, $errstr, $errfile, $errline) {
     if ($errno === E_WARNING) {
         throw new ErrorException($errstr, $errno, 0, $errfile, $errline);
     }
     return false;
 });
 
-class MyProcessor
-{
-    /**
-     * @param array $record
-     * @return array
-     */
-    public function __invoke(LogRecord $record)
-    {
-        var_dump($record);
-        $info = $this->findFile();
-        $record->extra['file_info'] = $info['file'] . ':' . $info['line'];
-        return $record;
-    }
 
-    public function findFile()
-    {
-        $debug = debug_backtrace();
-        return [
-            'file' => $debug[3] ? basename($debug[3]['file']) : '',
-            'line' => $debug[3] ? $debug[3]['line'] : ''
-        ];
-    }
-}
-
-
-
+Debug::$logger = new Logger();
+Debug::$logger->addHandler(Logger::DEBUG, Debug::getDefaultLogHandler());
+Debug::$logger->addHandler(Logger::INFO, Debug::getDefaultLogHandler());
 
 
 function view(string $path, ...$params): string
@@ -70,61 +49,97 @@ function view(string $path, ...$params): string
 }
 
 
-// Erstelle einen DI-Container
 $container = new Container();
-// Register Monolog service with the container
-$container->set('logger', function () {
-    $logger = new Logger('DEBUG');
-    $file_handler = new StreamHandler('C:\laragon\tmp\debug.log', Level::Debug);
-    $file_handler->pushProcessor(new MyProcessor());
-    $file_handler->pushProcessor(new MemoryUsageProcessor());
-// the default date format is "Y-m-d\TH:i:sP"
-    $dateFormat = "Y-m-d\H:i:s";
-// the default output format is "[%datetime%] %channel%.%level_name%: %message% %context% %extra%\n"
-    $output = "\n[%datetime%] %channel%.%level_name%\n\tmessage | %message%\n\tcontext | %context%\n\tinfo    | %extra%\n";
-// finally, create a formatter
-    $formatter = new LineFormatter($output, $dateFormat);
-    $file_handler->setFormatter($formatter);
-    $logger->pushHandler($file_handler);
-    return $logger;
+$container->set(ILogger::class, function () {
+    return new Logger();
 });
-$container->set('MyService', function () {
-    return new class {
-        function foo(): void
-        {
-            var_dump('BINGO');
+
+
+class MyCustomMiddleware implements MiddlewareInterface
+{
+    public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
+    {
+        // Call the next middleware and get the response
+        $response = $handler->handle($request);
+
+        // Modify the response to add a custom header
+        return $response->withHeader('X-My-Custom-Header', 'MyValue');
+    }
+}
+
+class ExampleMiddleware implements MiddlewareInterface
+{
+    public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
+    {
+        // RouteContext aus der Anfrage extrahieren
+        $routeContext = RouteContext::fromRequest($request);
+        $route = $routeContext->getRoute();
+
+        if (!is_null($route)) {
+            $routeName = $route->getName();
+            $routeArguments = $route->getArguments();
+
+            // Verwende $routeName und $routeArguments wie benötigt
         }
-    };
-});
+
+        var_dump($handler);
+//        $logger->info('ROUTE PATTERN', $route->getPattern());
+
+        // Führe den Rest der Middleware-Stack aus
+        return $handler->handle($request);
+    }
+}
 
 
-// Konfiguriere Slim, um den DI-Container zu verwenden
 AppFactory::setContainer($container);
 
-// Instantiate App
 $app = AppFactory::create();
-
-// Add error middleware
+$app->addRoutingMiddleware();
 $app->addErrorMiddleware(true, true, true);
+//$app->add(ExampleMiddleware::class);
+$app->add(new MyCustomMiddleware());
 
-// Add routes
-$app->get('/', function (Request $request, Response $response) {
 
-    $logger = $this->get('logger');
-//    $logger->info("Slim-Skeleton '/' route");
+
+$app->get('/', function (Request  $request, Response $response) {
+
+    Debug::mark('BINGO', [
+        'test1' => 123,
+        'test2' => 123,
+        'test3' => 123,
+        'test4' => 123,
+    ]);
 
     $response->getBody()->write(view('home'));
     return $response;
 });
 
-$app->get('/hello/{name}', function (Request $request, Response $response, $args) {
+$app->get('/hello2/{name}', function (Request $request, Response $response, $args) {
     $name = $args['name'];
     $response->getBody()->write("Hello, $name");
     return $response;
 });
+$app->get('/hello/{id}', function (Request  $request, Response $response) {
 
-$logger = $container->get('logger');
-$logger->info(json_encode($app));
+    var_dump(RouteContext::fromRequest($request)->getRoute()->getPattern());
+
+    Debug::mark('BINGO', [
+        'test1' => 123,
+        'test2' => 123,
+        'test3' => 123,
+        'test4' => 123,
+    ]);
+
+    $response->getBody()->write(view('home'));
+    return $response;
+})->add(new ExampleMiddleware());
+
+
 $routes = array_map(fn($route) => $route->getPattern(), $app->getRouteCollector()->getRoutes());
-var_dump($routes);
+
+$logger = $container->get(ILogger::class);
+$routes = array_map(fn($route) => $route->getPattern(), $app->getRouteCollector()->getRoutes());
+$logger->info('ROUTES ', $routes);
+
 $app->run();
+

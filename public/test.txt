@@ -1,0 +1,2485 @@
+
+[2024-03-10 18:38:44:4961] C:\DEV\php-di\public\index.php: 100
+	message: routes: 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 100
+	context: /
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 18:38:44:5068] C:\DEV\php-di\public\index.php: 102
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 74
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 102
+	context: Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 18:38:56:7868] C:\DEV\php-di\public\index.php: 100
+	message: routes: 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 100
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+[2024-03-10 18:38:56:7967] C:\DEV\php-di\public\index.php: 102
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 74
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 102
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 18:39:24:1312] C:\DEV\php-di\public\index.php: 100
+	message: routes: 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 100
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 18:39:24:1412] C:\DEV\php-di\public\index.php: 102
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 74
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 102
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 18:39:27:9407] C:\DEV\php-di\public\index.php: 100
+	message: routes: 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 100
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 18:39:27:9493] C:\DEV\php-di\public\index.php: 102
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 74
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 102
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 19:26:26:1531] C:\DEV\php-di\public\index.php: 113
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 113
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 19:26:27:7202] C:\DEV\php-di\public\index.php: 113
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 113
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 19:26:27:9929] C:\DEV\php-di\public\index.php: 113
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 113
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 19:46:32:3854] C:\DEV\php-di\public\index.php: 110
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 110
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 19:47:22:9267] C:\DEV\php-di\public\index.php: 109
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 109
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 19:47:28:1214] C:\DEV\php-di\public\index.php: 109
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 109
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 19:47:58:3413] C:\DEV\php-di\public\index.php: 108
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 108
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 19:48:15:6741] C:\DEV\php-di\public\index.php: 108
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 108
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 19:49:02:9147] C:\DEV\php-di\public\index.php: 109
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 109
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 19:49:50:4071] C:\DEV\php-di\public\index.php: 109
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 109
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 19:49:51:0135] C:\DEV\php-di\public\index.php: 109
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 109
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 19:49:51:2753] C:\DEV\php-di\public\index.php: 109
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 109
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 20:24:49:0389] C:\DEV\php-di\public\index.php: 120
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 120
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 20:24:49:0503] C:\DEV\php-di\public\index.php: 122
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 94
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 122
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 20:25:15:2367] C:\DEV\php-di\public\index.php: 121
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 121
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 20:25:15:247] C:\DEV\php-di\public\index.php: 123
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 95
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 77
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 123
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 20:34:10:5411] C:\DEV\php-di\public\index.php: 107
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 107
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 20:34:10:5517] C:\DEV\php-di\public\index.php: 109
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 81
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 109
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 20:34:44:2819] C:\DEV\php-di\public\index.php: 107
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 107
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 20:34:44:2925] C:\DEV\php-di\public\index.php: 109
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 81
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 109
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 20:35:27:5253] C:\DEV\php-di\public\index.php: 107
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 107
+	context: 
+/
+/hello/{name}
+/hello2/{name}
+
+[2024-03-10 20:35:27:5339] C:\DEV\php-di\public\index.php: 109
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 81
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 109
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 20:36:06:5478] C:\DEV\php-di\public\index.php: 107
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 107
+	context: 
+/
+/hello2/{name}
+/hello
+
+[2024-03-10 20:36:23:8304] C:\DEV\php-di\public\index.php: 107
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 107
+	context: 
+/
+/hello2/{name}
+/hello
+
+[2024-03-10 20:36:23:8426] C:\DEV\php-di\public\index.php: 109
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 81
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 109
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 20:39:22:4064] C:\DEV\php-di\public\index.php: 114
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 114
+	context: 
+/
+/hello2/{name}
+/hello
+
+[2024-03-10 20:39:22:418] C:\DEV\php-di\public\index.php: 116
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 99
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 116
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 20:39:34:2205] C:\DEV\php-di\public\index.php: 114
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 114
+	context: 
+/
+/hello2/{name}
+/hello
+
+[2024-03-10 20:39:48:5911] C:\DEV\php-di\public\index.php: 114
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 114
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:39:48:5998] C:\DEV\php-di\public\index.php: 116
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 99
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 116
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 20:40:01:2475] C:\DEV\php-di\public\index.php: 114
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 114
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:40:01:2567] C:\DEV\php-di\public\index.php: 116
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 99
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 116
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 20:45:44:7244] C:\DEV\php-di\public\index.php: 126
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 126
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:52:03:6789] C:\DEV\php-di\public\index.php: 140
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 140
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:52:04:5273] C:\DEV\php-di\public\index.php: 140
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 140
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:52:04:7423] C:\DEV\php-di\public\index.php: 140
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 140
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:52:04:9456] C:\DEV\php-di\public\index.php: 140
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 140
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:52:38:3981] C:\DEV\php-di\public\index.php: 141
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 141
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:54:49:5701] C:\DEV\php-di\public\index.php: 141
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 141
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:54:49:9639] C:\DEV\php-di\public\index.php: 141
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 141
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:54:50:2044] C:\DEV\php-di\public\index.php: 141
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 141
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:54:50:4883] C:\DEV\php-di\public\index.php: 141
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 141
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:55:05:5875] C:\DEV\php-di\public\index.php: 141
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 141
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:56:57:885] C:\DEV\php-di\public\index.php: 156
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 156
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:57:09:5344] C:\DEV\php-di\public\index.php: 156
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 156
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:57:10:2509] C:\DEV\php-di\public\index.php: 156
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 156
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:57:10:4753] C:\DEV\php-di\public\index.php: 156
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 156
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:57:30:8307] C:\DEV\php-di\public\index.php: 156
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 156
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:57:30:8409] C:\DEV\php-di\public\index.php: 158
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 141
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 104
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 269
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 158
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 20:57:31:4705] C:\DEV\php-di\public\index.php: 156
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 156
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:57:31:4789] C:\DEV\php-di\public\index.php: 158
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 141
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 104
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 269
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 158
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 20:57:31:6693] C:\DEV\php-di\public\index.php: 156
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 156
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:57:31:6773] C:\DEV\php-di\public\index.php: 158
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 141
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 104
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 269
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 158
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 20:57:37:5167] C:\DEV\php-di\public\index.php: 141
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 141
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 20:57:37:5263] C:\DEV\php-di\public\index.php: 143
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 126
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 143
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:00:29:5234] C:\DEV\php-di\public\index.php: 154
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 154
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:00:29:5362] C:\DEV\php-di\public\index.php: 156
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 139
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 105
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 269
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 156
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:00:56:9293] C:\DEV\php-di\public\index.php: 142
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 142
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:00:56:9412] C:\DEV\php-di\public\index.php: 144
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 127
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 144
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:02:11:0565] C:\DEV\php-di\public\index.php: 142
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 142
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:13:41:4709] C:\DEV\php-di\public\index.php: 138
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 138
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:14:21:444] C:\DEV\php-di\public\index.php: 147
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 147
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:14:21:4549] C:\DEV\php-di\public\index.php: 149
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 132
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 149
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:14:46:9515] C:\DEV\php-di\public\index.php: 148
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 148
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:14:46:9612] C:\DEV\php-di\public\index.php: 150
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 115
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 150
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:14:53:9554] C:\DEV\php-di\public\index.php: 148
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 148
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:14:53:9636] C:\DEV\php-di\public\index.php: 150
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 115
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 150
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:15:07:9765] C:\DEV\php-di\public\index.php: 150
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 150
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:15:07:9867] C:\DEV\php-di\public\index.php: 152
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 117
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 152
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:15:21:7829] C:\DEV\php-di\public\index.php: 150
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 150
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:15:21:7911] C:\DEV\php-di\public\index.php: 152
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 117
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 152
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:17:40:9727] C:\DEV\php-di\public\index.php: 150
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 150
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:17:40:9845] C:\DEV\php-di\public\index.php: 152
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 135
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 152
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:18:11:471] C:\DEV\php-di\public\index.php: 152
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 152
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:18:11:4817] C:\DEV\php-di\public\index.php: 154
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 137
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 154
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:18:42:411] C:\DEV\php-di\public\index.php: 148
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 148
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:18:42:4228] C:\DEV\php-di\public\index.php: 150
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 133
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 150
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:21:40:4295] C:\DEV\php-di\public\index.php: 140
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 140
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:21:40:4406] C:\DEV\php-di\public\index.php: 142
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 125
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 142
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:22:01:0259] C:\DEV\php-di\public\index.php: 142
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 125
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 64
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 142
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:22:24:4308] C:\DEV\php-di\public\index.php: 139
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 139
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:22:24:4388] C:\DEV\php-di\public\index.php: 141
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 124
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 141
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:22:49:9217] C:\DEV\php-di\public\index.php: 140
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 140
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:22:54:7392] C:\DEV\php-di\public\index.php: 139
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 139
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:22:54:747] C:\DEV\php-di\public\index.php: 141
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 124
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 141
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:23:52:2495] C:\DEV\php-di\public\index.php: 139
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 139
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:23:52:2597] C:\DEV\php-di\public\index.php: 141
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 124
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\public\index.php: 86
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 141
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:23:52:7796] C:\DEV\php-di\public\index.php: 139
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 139
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:23:52:7876] C:\DEV\php-di\public\index.php: 141
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 124
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\public\index.php: 86
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 141
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:23:52:9889] C:\DEV\php-di\public\index.php: 139
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 139
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:23:52:9968] C:\DEV\php-di\public\index.php: 141
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 124
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\public\index.php: 86
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 141
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:23:53:1956] C:\DEV\php-di\public\index.php: 139
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 139
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:23:53:2036] C:\DEV\php-di\public\index.php: 141
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 124
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\public\index.php: 86
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 141
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:24:07:8487] C:\DEV\php-di\public\index.php: 140
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 140
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:24:07:859] C:\DEV\php-di\public\index.php: 142
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 125
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\public\index.php: 87
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 142
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:27:10:4721] C:\DEV\php-di\public\index.php: 142
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 142
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:27:10:4831] C:\DEV\php-di\public\index.php: 144
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 127
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\public\index.php: 89
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 144
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:28:21:2268] C:\DEV\php-di\public\index.php: 142
+	message: ROUTES 
+	level: info
+	ram usage: 2097152
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 142
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:28:21:2386] C:\DEV\php-di\public\index.php: 144
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 127
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\public\index.php: 89
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 144
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:28:26:4965] C:\DEV\php-di\public\index.php: 142
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 142
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:28:26:5062] C:\DEV\php-di\public\index.php: 144
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 127
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\public\index.php: 89
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 144
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:28:44:8676] C:\DEV\php-di\public\index.php: 142
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 142
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:28:44:876] C:\DEV\php-di\public\index.php: 144
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 127
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\public\index.php: 89
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 144
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:28:53:6197] C:\DEV\php-di\public\index.php: 142
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 142
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:28:53:6286] C:\DEV\php-di\public\index.php: 144
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 127
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\public\index.php: 89
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 144
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:29:31:3075] C:\DEV\php-di\public\index.php: 142
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 142
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:29:31:3172] C:\DEV\php-di\public\index.php: 144
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 127
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\public\index.php: 89
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 144
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:29:31:8802] C:\DEV\php-di\public\index.php: 142
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 142
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:29:31:8882] C:\DEV\php-di\public\index.php: 144
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 127
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\public\index.php: 89
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 144
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:29:32:0827] C:\DEV\php-di\public\index.php: 142
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 142
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:29:32:0905] C:\DEV\php-di\public\index.php: 144
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 127
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\public\index.php: 89
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 144
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
+
+
+[2024-03-10 21:29:36:143] C:\DEV\php-di\public\index.php: 142
+	message: ROUTES 
+	level: info
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 65
+		C:\DEV\php-di\public\index.php: 142
+	context: 
+/
+/hello2/{name}
+/hello/{id}
+
+[2024-03-10 21:29:36:1515] C:\DEV\php-di\public\index.php: 144
+	message: BINGO
+	level: debug
+	ram usage: 4194304
+	backtrace:
+		C:\DEV\php-di\src\Logger\Logger.php: 60
+		C:\DEV\php-di\src\Debug\Debug.php: 32
+		C:\DEV\php-di\src\Debug\Debug.php: 47
+		C:\DEV\php-di\public\index.php: 127
+		C:\DEV\php-di\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php: 38
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 358
+		C:\DEV\php-di\public\index.php: 89
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\Route.php: 315
+		C:\DEV\php-di\vendor\slim\slim\Slim\Routing\RouteRunner.php: 68
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php: 45
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php: 76
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\public\index.php: 63
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 121
+		C:\DEV\php-di\vendor\slim\slim\Slim\MiddlewareDispatcher.php: 65
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 199
+		C:\DEV\php-di\vendor\slim\slim\Slim\App.php: 183
+		C:\DEV\php-di\public\index.php: 144
+	context: 
+Array
+(
+    [test1] => 123
+    [test2] => 123
+    [test3] => 123
+    [test4] => 123
+)
